@@ -7,3 +7,4 @@ db.mails.aggregate([
 	{ $sort : {"total": -1 } }
 ])
 ```
+
