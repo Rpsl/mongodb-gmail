@@ -11,5 +11,5 @@ db.mails.aggregate([
     { $match: { labels: { $in: ['inbox'] } } },
     { $group: {_id: "$from", total: {$sum : 1} } },
     { $sort : {"total": -1 } }
-
+])
 ```
