@@ -79,6 +79,6 @@ Options:
 
 ### Todo
 
-- [] Repair parse body
-- [] Extract examples (aggregate functions) to the personal classes and execute from cli
-- [] Add `--report` option for executing the aggregates and generate report files
+- [ ] Repair parse body
+- [ ] Extract examples (aggregate functions) to the personal classes and execute from cli
+- [ ] Add `--report` option for executing the aggregates and generate report files
