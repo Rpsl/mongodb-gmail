@@ -44,7 +44,7 @@ switched to db google-mail
 ```
 
 And exec aggregation functions.
-* See [examples](https://github.com/Rpsl/mongodb-gmail/examples/)  
+* See [examples](https://github.com/Rpsl/mongodb-gmail/tree/master/examples)  
 * See [documentation of MongoDB Aggregation framework](https://docs.mongodb.com/manual/aggregation/)
 ```
 > db.mails.aggregate([
