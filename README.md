@@ -48,9 +48,9 @@ And exec aggregation functions.
 * See [documentation of MongoDB Aggregation framework](https://docs.mongodb.com/manual/aggregation/)
 ```
 > db.mails.aggregate([
-	{ $match: { labels: { $in: ['inbox'] } } },
-	{ $group: {_id: "$from", total: {$sum : 1} } },
-	{ $sort : {"total": -1 } }
+    { $match: { labels: { $in: ['inbox'] } } },
+    { $group: {_id: "$from", total: {$sum : 1} } },
+    { $sort : {"total": -1 } }
 ])
 ```
 
@@ -79,6 +79,6 @@ Options:
 
 ### Todo
 
-[] Repair parse body
-[] Extract examples (aggregate functions) to the personal classes and execute from cli
-[] Add `--report` option for executing the aggregates and generate report files
+- [] Repair parse body
+- [] Extract examples (aggregate functions) to the personal classes and execute from cli
+- [] Add `--report` option for executing the aggregates and generate report files
